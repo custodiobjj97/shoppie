@@ -1,0 +1,32 @@
+.off{
+    padding: 120px 12px;
+    background-image: url('../image/offer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.off-desc{
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+ 
+}
+
+.off-desc h2{
+    font-size: 3rem;
+    margin-bottom: var(--margin-bottom);
+}
+
+.off-desc p{
+    font-size: 1.799rem;
+    line-height: 1.7;
+    margin-bottom: var(--margin-bottom);
+}
+
+.off-desc .btn-off{
+    margin-bottom: var(--margin-bottom);
+}

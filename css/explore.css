@@ -1,0 +1,42 @@
+.explore{
+    padding: 120px 12px;
+}
+
+.explore h2{
+    text-align: center;
+    margin-bottom: var(--margin-bottom);
+    font-size: 2rem;
+}
+
+.cards-products{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.card-procuct{
+    padding: 2rem;
+}
+.card-procuct img{
+    width: 100%;
+}
+
+.card-procuct h3{
+    color: rgb(255, 128, 119);
+    margin-bottom: var(--margin-bottom);
+}
+
+.card-procuct span{
+    color: var(--color-primary);
+    display: inline-block;
+}
+
+
+@media (min-width:920px){
+    .cards-products {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    
+    }
+}

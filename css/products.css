@@ -1,0 +1,23 @@
+.products{
+    padding: 120px 12px;
+
+}
+
+.products h2{
+    text-align: center;
+    font-size: 2.56rem;
+    margin-bottom: var(--margin-bottom);
+}
+
+.products h4{
+
+    margin-bottom: var(--margin-bottom);
+    font-size: 1.35rem;
+
+}
+
+.products span{
+    display: block;
+
+    font-size: 1.11rem;
+}
